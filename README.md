@@ -10,9 +10,12 @@ Two aspects were especially important in the package's creation :
 
 2. **Interpretability:** Instead of returning raw classifier weights (which are uninterpretable in backward decoding), it computes **Haufe-transformed activation maps** ($A = \Sigma_X W$; Haufe et al., 2013), allowing to visualize the source of neural information used for classification. 
 
-This repository also includes example data from the ERPCore dataset N170 (face vs house) to test this package. Figure 1 illustrates the performance of single trial decoding using the default stEEG_decoder pipeline.  For more information see [**Example Usage**](#example-usage-of-the-package).
+This repository also includes example data from the ERPCore dataset N170 (face vs car) to test this package. Figure 1 illustrates the performance of single trial decoding using the default stEEG_decoder pipeline.  For more information see [**Example Usage**](#example-usage-of-the-package).
 
-<p align="center">   <img src="images/img_decoding_results.png" width="800" height="359.4" title="Decoding Results">   <br>   <em>Figure 1: Temporal decoding with Haufe-transformed Activation Maps and Temporal-Generalization matrix.</em> </p>
+<p align="center">
+  <img src="images/img_decoding_results.png"  alt="Decoding Results" width="800"  >
+  <br> <em>Figure 1: Temporal decoding with Haufe-transformed Activation Maps and Temporal-Generalization matrix.</em>
+</p>
 
 ---
 
